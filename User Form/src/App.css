@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.App{
+    width: 320px;
+    height: 100%;
+    margin: 0 auto;
+    background: #fff;
+}
+header{
+    height: 50px;
+    color: #000;
+    width: 320px;
+}
+input{
+    width: 100%;
+    margin-top:5px;
+    position: relative;
+    display: block;
+    height: 30px;
+}
+ul{
+    list-style-type: none;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+li{
+    padding: 10px;
+}
+
+.footer{
+    bottom: 0;
+    width: 320px;
+    position: sticky;
+    bottom: 0;
+    margin: 0 auto;
+    overflow-x: hidden;
+  }
+.container{
+    height: 100%;
+    width: 320px;
+    margin: 0;
+    overflow-y: hidden;
+    padding: 0;
+  }
+  .navbar{
+    color: #303;
+    width: 320px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+    position: absolute;
+    padding: 0;
+ }
+  .nav  svg{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    fill:#000;
+  }
+  .nav svg:hover{
+    fill:rgb(86, 169, 236);
+  }
+  .nav svg:active{
+    fill: lightblue;
+    border-bottom: 3px solid;
+    padding-bottom: 2px;
+  }
+  
+  .main-menu{
+     top: 0;
+     margin-left: 0;
+     background: #fff;
+     height: 100%;
+     width: 250px;
+     position: absolute;
+     transition: 1s ease-in-out;
+     overflow: hidden; 
+     box-shadow: gray 1px;
+  }
+  
+  .menu{
+    width: 100%;
+    left: 0;
+    top: 0;
+    height: 100%;
+    list-style-type: none;
+  }
+  .menu a{
+    width: 100%;
+  }
+  .menu-btn{
+    border: none;
+    background: transparent;
+  }
+  
+  .friends img{
+   width: 100px;
+   height: 100px;
+   border-radius: 50%;
+  }
+  .back{
+    height: 100%;
+    top: 0;
+    margin-left: 0;
+    width: 320px;
+    background: #000;
+    opacity: .8;
+    position: absolute;
+    overflow: hidden;
+  }
+  .taskbar{
+    width: 320px;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    background: #f8f9fa;
+  }
+  .taskbar svg{
+    fill: #000;
+    height: 35px;
+    width: 35px;
+    cursor: pointer;
+  }
+  .taskbar svg:hover{
+    fill: #007bff;
+    border-bottom: 2px #007bff;
+  }
+  

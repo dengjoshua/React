@@ -1,0 +1,24 @@
+*{
+  margin:0;
+  padding: 0;
+  line-height: 2;
+}
+.main{
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  background: #555;
+}
+.container{
+  width: 80%;
+  margin: 20px auto;
+  background: #555;
+  display: inline-block;  
+}
+.navbar{
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  background: red;
+}
